@@ -15,9 +15,9 @@ This project is developing a question answering model, specifically enhancing La
 
 ## Contributers
 
-Minji Kim [About](https://github.com/Janice0381)
+Minji Kim  [About](https://github.com/Janice0381)
 
-Hyemin Boo
+Hyemin Boo  [About](https://github.com/hyeminboo)
 
 Seoyoung Kim
 
