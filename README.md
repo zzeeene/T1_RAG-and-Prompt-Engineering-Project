@@ -65,7 +65,7 @@ The methods used in this project include:
 
 
   
-## Contributers
+## Contributors
 
 Minji Kim  [About](https://github.com/Janice0381)
 
