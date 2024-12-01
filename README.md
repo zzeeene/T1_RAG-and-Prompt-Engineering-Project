@@ -18,7 +18,19 @@ This project is part of the **24-2 Natural Language Processing** course and focu
 6. API : **`Wikipedia API`**
 7. Prompt Engineering : **`langchain_core.prompts.prompt.PromptTemplate`**
 
+## Datasets
+1. EWHA Academic Policies
    
+2. Domain-Specific Data:
+ - Business : Collected from web crawling and Business Math resources.
+ - Law : Data sourced from [U.S Government Information](congress.gov)
+ - Philosophy : Sourced form *Philosophy 101*
+ - Psychology : Sourced from *Cognitive Psychology and its Implications*
+   
+3. Test Data: MMLU-PRO
+
+
+
 ## Methodology
 
 The methods used in this project include:
