@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is part of the **24-2 Natural Language Processing** course and focuses on building a question-answering system enhanced with Retrieval-Augmented Generation (RAG) and advanced prompt engineering techniques. The system is designed to improve the performance of a Large Language Model (LLM) provided by Upstage (Solar).
+This project is part of the **24-2 Natural Language Processing** course and focuses on building a question-answering system enhanced with Retrieval-Augmented Generation (RAG) and advanced prompt engineering techniques. The system is designed to improve the performance of a Large Language Model (LLM) provided by <U>Upstage (Solar)</U>(https://www.upstage.ai).
 
 
 The methods used in this project include:
