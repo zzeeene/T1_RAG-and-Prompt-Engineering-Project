@@ -12,7 +12,6 @@ This project is part of the **24-2 Natural Language Processing** course and focu
    - solar-embedding-1-large-passage
    - solar-embedding-1-large-query
 5. Preprocessing Tools:
-   - **`BeautifulSoup`**
    - **`NLTK`**
    - **`TF-IDF Vectorizer`**
 6. API : **`Wikipedia API`**
@@ -22,7 +21,7 @@ This project is part of the **24-2 Natural Language Processing** course and focu
 1. EWHA Academic Policies
    
 2. Domain-Specific Data:
- - Business : Collected from web crawling and Business Math resources.
+ - Business : Collected from Business Math resources.
  - Law : Data sourced from [U.S Government Information](congress.gov)
  - Philosophy : Sourced form *Philosophy 101*
  - Psychology : Sourced from *Cognitive Psychology and its Implications*
@@ -40,7 +39,8 @@ The methods used in this project include:
       - Use stop words from **NLTK** to remove unneccessary words from the list
    - Gather domain-specific documents (Business, Psychology, Philosophy, Law) to improve coverage in underperforming areas.
    - Document retrieval via the **Wikipedia API**.
-   - Attempt on web crawling to gather massive information for specific domain.
+   - Attempt on web crawling using **`BeautifulSoup`** to gather massive information for specific domain.
+     - Not used in the final model
      
 2. Embeddings
    - **RecursiveCharacterTextSplitter** for efficient text segmentation and preprocessing.
@@ -56,7 +56,7 @@ The methods used in this project include:
    - Select the top 3 contexts that best correlates with the query for EWHA dataset.
 
 5. Prompt Engineering
-   - Introduce Chain-of-Thought (CoT) reasoning.
+   - Introduce Chain-of-Thought (CoT) reasoning and one-shot prompting.
    - Develop domain-specific prompts tailored to specific question types.
 
 
