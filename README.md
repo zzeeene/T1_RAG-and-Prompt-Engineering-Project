@@ -35,16 +35,25 @@ This project is part of the **24-2 Natural Language Processing** course and focu
 
 The methods used in this project include:
 
-1. Embeddings
+1. Data Collection
+   - Implement a keyword extraction pipeline using **NLTK** and **TF-IDF** to enhance query generation.
+      - Use stop words from **NLTK** to remove unneccessary words from the list
+   - Gather domain-specific documents (Business, Psychology, Philosophy, Law) to improve coverage in underperforming areas.
+   - Document retrieval via the **Wikipedia API**.
+   - Attempt on web crawling to gather massive information for specific domain.
+     
+2. Embeddings
    - **RecursiveCharacterTextSplitter** for efficient text segmentation and preprocessing.
    - Use **UpstageEmbeddings** provided by Upstage APIs for document retrieval and domain classification.
+   - Embed 3 major things:
+      -  the split documents for each domain
+      -  query
+      -  related keywords lists for each domain
      
-3. Data Collection
-   - Implement a keyword extraction pipeline using **NLTK** and **TF-IDF** to enhance query generation.
-   - Gather domain-specific documents (e.g., Business, Psychology, Philosophy) to improve coverage in underperforming areas.
-   - Document retrieval via the **Wikipedia API**.
+3. Preprocess Wikipedia Data
+   - d
 
-4. Prompt Engineering
+5. Prompt Engineering
    - Introduce Chain-of-Thought (CoT) reasoning.
    - Develop domain-specific prompts tailored to specific question types.
 
