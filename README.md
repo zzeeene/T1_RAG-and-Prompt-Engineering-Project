@@ -50,8 +50,10 @@ The methods used in this project include:
       -  query
       -  related keywords lists for each domain
      
-3. Preprocess Wikipedia Data
-   - d
+3. Context Retrieval
+   - Calculate the similarity between the query and contexts
+   - Select the top 7 contexts that best correlates with the query with respect to each domain for MMLU dataset.
+   - Select the top 3 contexts that best correlates with the query for EWHA dataset.
 
 5. Prompt Engineering
    - Introduce Chain-of-Thought (CoT) reasoning.
