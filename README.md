@@ -2,14 +2,16 @@
 
 ## Description
 
+This project is part of the **24-2 Natural Language Processing** course and focuses on building a question-answering system enhanced with Retrieval-Augmented Generation (RAG) and advanced prompt engineering techniques. The system is designed to improve the performance of a Large Language Model (LLM) provided by Upstage (Solar).
 
-This project is developing a question answering model, specifically enhancing Large Language Model provided by Upstage. Our objective is to improve the performance of the model by utilizing various techniques such as:
-- embedding
-- web crawling
-- text splitter
-- TfidfVectorizer
-- nltk
-- wikipedia api
+
+The methods used in this project include:
+- **UpstageEmbeddings** for contextual understanding.
+- Web crawling to gather domain-specific knowledge using **BeautifulSoup**
+- **RecursiveCharacterTextSplitter** for efficient text segmentation and preprocessing. 
+- Keyword extraction using **NLTK** and **TfidfVectorizer**.
+- Document retrieval via the **Wikipedia API**.
+- **Prompt engineering** to improve the model's ability to understand and answer questions.
 
 
 ## Contributers
