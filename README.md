@@ -29,6 +29,22 @@ This project is part of the **24-2 Natural Language Processing** course and focu
 3. Test Data: MMLU-PRO
 
 
+## Directory
+```
+project_folder/
+│
+├── final_code.ipynb                 
+├── testset.csv              
+├── ewha.pdf                 
+├── law.pdf                  
+├── business-math.pdf       
+├── Psychology.pdf           
+├── philosophy.pdf
+└── ...
+       
+```             
+
+
 
 ## Methodology
 
