@@ -39,8 +39,8 @@ project_folder/
 ├── law.pdf                  
 ├── business-math.pdf       
 ├── Psychology.pdf           
-├── philosophy.pdf
-│
+└── philosophy.pdf
+
        
 ```
 You can download the files in each folder from GitHub and set them up according to the specified directory structure.             
